@@ -1,0 +1,74 @@
+nav {
+  padding: 10px;
+  margin: 10px;
+}
+
+header nav a {
+  padding: 5px 10px;
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  background: tomato;
+}
+
+header nav a:hover {
+  color: tomato;
+  background: white;
+}
+
+.book-content {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+#children .book-content:nth-of-type(2) p {
+  background: lightpink;
+}
+
+#romance .book-content:nth-of-type(1) p {
+  background: lightblue;
+}
+
+#romance .book-content:nth-of-type(2) p {
+  background: rgb(243, 243, 122);
+}
+.book-content a {
+  color: rgb(243, 34, 34);
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid lightsalmon;
+}
+
+.book-content a:hover {
+  color: white;
+  background: lightsalmon;
+}
+
+blockquote {
+  font-family: "Caveat", cursive;
+  font-size: 22px;
+}
+
+cite {
+  color: #ff00ae;
+}
+p {
+  font-family: "Courgette", cursive;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+footer nav a {
+  padding: 5px 10px;
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  background: blue;
+}
+
+footer nav a:hover {
+  color: rgb(255, 38, 0);
+  background: white;
+}
